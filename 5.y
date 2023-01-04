@@ -15,6 +15,7 @@ printf("\n Invalid expression\n"); }
 int main() {
 exit(1);
 printf("\n Enter the expression\n");
+yyparse();
 printf("Valid Expression\n"); }
 int yywrap(){ return 1;
 }
